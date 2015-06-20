@@ -1,0 +1,8 @@
+language: java
+install: true
+script: mvn verify
+jdk:
+  - openjdk7
+branches:
+  only:
+     - master
